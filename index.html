@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>German Flashcards</title>
+  </head>
+  <body>
+    <h1 onClick="window.location.reload();">Doug's German Flashcards</h1>
+    <form id="categories"></form>
+    <button id="start-button">Ich bin fertig</button>
+    <div id="active-div">
+      <div id="card">
+        <div class="cardSide" id="card-english">
+          <div class="cardSentence" id="card-english-sentence"></div>
+          <div class="cardCategory" id="category"></div>
+        </div>
+        <div class="cardSide" id="card-german">
+          <div class="cardSentence" id="card-german-sentence"></div>
+        </div>
+      </div>
+      <button id="new-card-button">
+        nächste
+      </button>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
